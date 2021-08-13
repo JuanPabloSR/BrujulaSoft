@@ -1,0 +1,72 @@
+.titulo {
+  color: $blanco;
+}
+  
+
+.formulario {
+  width: 400px;
+  padding: 160px;
+  background:$negro;
+  text-align: center;
+  max-width: 700px;
+} 
+
+.formulario-titulo {
+  color: $naranja;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario button[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 10px;
+  text-align: center;
+  border: 2px solid $naranja;
+  width: 200px;
+  outline: none;
+  color: $blanco;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+
+.formulario input[type="text"]:focus,
+.formulario input[type="password"]:focus {
+  width: 280px;
+  border-color: $blanco;
+}
+
+.formulario button[type="submit"] {
+  border: 0;
+  background: $naranja;
+  cursor: pointer;
+  border: 2px solid $naranja;
+} 
+.formulario button[type="submit"]:hover {
+  background: none;
+}
+
+.boton {
+  border: 0;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 10px;
+  text-align: center;
+  border: 2px solid $naranja;
+  width: 200px;
+  outline: none;
+  color: $blanco;
+  border-radius: 24px;
+  transition: 0.25s;
+  text-decoration: none;
+  
+  border: 0;
+  background: $naranja;
+  cursor: pointer;
+  border: 2px solid $naranja;
+}
