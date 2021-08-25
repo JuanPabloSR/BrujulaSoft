@@ -10,10 +10,214 @@
 </head>
 <body>
     
-    <form action="index.html" class="formulario animate__animated animate__bounce">
-        <h1 class="titulo">BrujulaSoft</h1>
-        <h2 class="formulario-titulo">Clientes</h2>
-        
+    <form class="en-bodega" action="index.html">
+        <h1 class="titulo-clientes">INVENTARIO EN BODEGA</h1>
+        <div class="datatable-container">
+            <div class="header-tools">
+                <div class="tools">
+                    <ul>
+                        <li><span><input type="checkbox"></span></li>
+                        <li>
+                            <button>
+                                <i class="material-icons">add_circle</i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="material-icons">edit</i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="material-icons">delete</i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="material-icons">share</i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="text" name="" id="" class="search-input">
+                </div>
+            </div>
+            
+            <table class="datatable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        
+                        <th>Articulo</th>
+                        <th>Cantidad</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
+                        
+                        <td>Cascos Rafting</td>
+                        <td>17</td>
+                        <td>Bueno</td>
+                       
+                    </tr>
+                    <tr>
+                        <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
+                        
+                        <td>Chalecos Rafting</td>
+                        <td>25</td>
+                        <td>Bueno</td>
+                       
+                    </tr>
+                    <tr>
+                        <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
+                        
+                        <td>Remos Rafting</td>
+                        <td>10</td>
+                        <td>Bueno</td>
+                    </tr>
+                    <tr>
+                        <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
+                    
+                        <td>Botes Doki</td>
+                        <td>5</td>
+                        <td>Bueno</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="footer-tools">
+                <div class="list-items">
+                    Show
+                    <select name="n-entries" id="n-enties" class="n-entries">
+                        <option value="15">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="15">15</option>
+                    </select>
+                    entries
+                </div>
+
+                <div class="pages">
+                    <ul>
+                        <li><span class="active">1</span></li>
+                        <li><button>2</button></li>
+                        <li><button>3</button></li>
+                        <li><button>4</button></li>
+                        <li><span>...</span></li>
+                        <li><button>9</button></li>
+                        <li><button>10</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <form class="en-uso" action="index.html">
+        <h1 class="titulo-clientes">INVENTARIO EN USO</h1>
+        <div class="datatable-container">
+            <div class="header-tools">
+                <div class="tools">
+                    <ul>
+                        <li><span><input type="checkbox"></span></li>
+                        <li>
+                            <button>
+                                <i class="material-icons">add_circle</i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="material-icons">edit</i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="material-icons">delete</i>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <i class="material-icons">share</i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="text" name="" id="" class="search-input">
+                </div>
+            </div>
+            
+            <table class="datatable">
+                <thead>
+                    <tr>
+                        <th></th>
+                        
+                        <th>Articulo</th>
+                        <th>Cantidad</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
+                        
+                        <td>Cascos Rafting</td>
+                        <td>17</td>
+                        <td>Bueno</td>
+                       
+                    </tr>
+                    <tr>
+                        <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
+                        
+                        <td>Chalecos Rafting</td>
+                        <td>25</td>
+                        <td>Bueno</td>
+                       
+                    </tr>
+                    <tr>
+                        <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
+                        
+                        <td>Remos Rafting</td>
+                        <td>10</td>
+                        <td>Bueno</td>
+                    </tr>
+                    <tr>
+                        <td class="table-checkbox"><input type="checkbox" name="" id=""></td>
+                    
+                        <td>Botes Doki</td>
+                        <td>5</td>
+                        <td>Bueno</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="footer-tools">
+                <div class="list-items">
+                    Show
+                    <select name="n-entries" id="n-enties" class="n-entries">
+                        <option value="15">5</option>
+                        <option value="10" selected>10</option>
+                        <option value="15">15</option>
+                    </select>
+                    entries
+                </div>
+
+                <div class="pages">
+                    <ul>
+                        <li><span class="active">1</span></li>
+                        <li><button>2</button></li>
+                        <li><button>3</button></li>
+                        <li><button>4</button></li>
+                        <li><span>...</span></li>
+                        <li><button>9</button></li>
+                        <li><button>10</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </form>
 
     <script src="build/js/bundle.min.js"></script>

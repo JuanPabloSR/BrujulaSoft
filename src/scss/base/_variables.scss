@@ -15,6 +15,40 @@ $negro: #403F3E;
 $blanco: #FFFFFF;
 $gris: #e1e1e1;
 
+:root {
+    --primary-color: white;
+    --secundary-color: rgb(61, 68, 73);
+    --highLight-color: #F18410;
+
+    --dt-status-available-color: greenyellow;
+    --dt-status-away-color: lightsalmon;
+    --dt-status-offline-color: lightgray;
+
+    --dt-padding: 12px;
+    --dt-padding-s: 6px;
+    --dt-padding-xs: 2px;
+
+    --dt-border-radius: 3px;
+
+    --dt-background-color-container: #2a3338;
+    --dt-border-color:var(--secundary-color);
+    --dt-bg-color:var(--highLight-color);
+    --dt-text-color:var(--primary-color);
+    --dt-bg-active-button:var(--highLight-color);
+    --dt-text-color-button:var(--primary-color);
+    --dt-text-color-active-button:var(--primary-color);
+    --dt-hover-cell-color:var(--highLight-color);
+    --dt-even-row-color: var(--secundary-color);
+    --dt-focus-color: var(--highLight-color);
+    --dt-input-background-color: var(--secundary-color);
+    --dt-input-color: var(--primary-color);
+}
+
+
+
+
+
+
 $separacion: 5rem;
 
 // Fuentes

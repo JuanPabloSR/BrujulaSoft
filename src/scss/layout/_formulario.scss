@@ -18,7 +18,10 @@
 }
 
 .formulario input[type="text"],
+.formulario input[type="number"],
+.formulario input[type="date"],
 .formulario input[type="password"],
+.formulario input[type="file"],
 .formulario button[type="submit"] {
   border: 0;
   background: none;
@@ -36,6 +39,8 @@
 
 
 .formulario input[type="text"]:focus,
+.formulario input[type="number"]:focus,
+.formulario input[type="date"]:focus,
 .formulario input[type="password"]:focus {
   width: 280px;
   border-color: $blanco;
@@ -69,4 +74,8 @@
   background: $naranja;
   cursor: pointer;
   border: 2px solid $naranja;
+}
+
+.logo{
+  font-size: 150px;
 }
